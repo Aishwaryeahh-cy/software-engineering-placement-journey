@@ -1,0 +1,35 @@
+## 💻 Java & DSA
+- Learned how to find the maximum element in an array.
+- Practiced array traversal using a `for` loop.
+- Learned how `max = nums[0]` can be used to track the current maximum.
+- Practiced understanding array indexes and values.
+- Learned the difference between normal Java code and LeetCode `class Solution` format.
+- Reviewed time complexity: **O(n)**
+- Reviewed space complexity: **O(1)**
+
+## 🤖 AI-Assisted Development
+- Learned that AI-generated code should not be blindly trusted.
+- Practiced the workflow:
+  **Generate → Inspect → Run → Test → Verify → Fix**
+- Reviewed an AI-generated Java solution and identified issues with handling negative numbers.
+
+## 🧠 Aptitude
+- Practiced percentage calculations:
+  - Percentage of a number
+  - Finding percentage
+  - Discount
+  - Percentage increase
+
+## 🎤 Communication
+- Practiced a 60–90 second "Tell me about yourself" introduction.
+- Focused on presenting my education, CBA apprenticeship, technical skills, projects, and career goal clearly.
+
+## 🛠️ Developer Learning
+- Understood how to approach coding problems systematically instead of directly copying solutions.
+- Practiced identifying syntax errors, logical errors, and complexity mistakes.
+
+## 📌 Key Learning
+Today I learned that understanding the logic is not enough. I also need to write correct syntax, test my code, analyze edge cases, and verify the time and space complexity.
+
+## 🎯 Day 1 Status
+**Completed**
