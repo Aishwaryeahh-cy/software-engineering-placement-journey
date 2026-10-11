@@ -1,0 +1,143 @@
+// public class new1 {
+//     public static void main(String[] args) {
+//         System.out.println("My name is Aishwarya");
+//         System.out.println("I am preparing for Clarivate.");
+//         System.out.println("I am learning Java.");
+//     }
+// }
+// import java.util.Scanner;
+// public class new1 {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System.in);
+//         System.out.println("Enter a:");
+//         int a = sc.nextInt();
+//         System.out.println("Enter b:");
+//         int b = sc.nextInt();
+//         int sum= a+b;
+//         System.out.println("Sum:"+sum);
+//     }
+// }
+
+// import java.util.Scanner;
+// public class new1 {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System.in);
+//         System.out.println("Enter radius value:");
+//         double r = sc.nextDouble();
+//         double area = Math.PI*r*r;
+//         System.out.println("Area:"+area);
+//     }
+// }
+
+
+// import java.util.Scanner;
+// public class new1 {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System.in);
+//         System.out.println("Enter length:");
+//         double r = sc.nextDouble();
+//         System.out.println("Enter breadth:");
+//         double x = sc.nextDouble();
+//         double area = r*x;
+//         System.out.println("Area of Rectangle:"+area);
+//     }
+// }
+
+// Area of a circle= Math.PI * radius * radius;
+// Area of a rectangle= double area = length * width;
+// Perimeter = 2(length + breadth);
+// Circumference of a circle= 2 * Math.PI * radius;
+// Simple interest=principal * rate * time / 100;
+// Celsius to Fahrenheit= (9.0 / 5) * celsius + 32;
+
+
+// import java.util.Scanner;
+// public class new1 {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System.in);
+//         System.out.println("Enter length:");
+//         double r = sc.nextDouble();
+//         System.out.println("Enter breadth:");
+//         double x = sc.nextDouble();
+//         double area = (2*r+x);
+//         System.out.println("Area of Rectangle:"+area);
+//     }
+// }
+
+// import java.util.Scanner;
+// public class new1 {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System.in);
+//         System.out.println("P:");
+//         double r = sc.nextDouble();
+//         System.out.println("T:");
+//         double x = sc.nextDouble();
+//         System.out.println("R:");
+//         double z= sc.nextDouble();
+//         double interest= (x*r*z/100);
+//         System.out.println("Area of Rectangle:"+interest);
+//     }
+// }
+
+// import java.util.Scanner;
+// public class new1 {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System.in);
+//         System.out.println("Enter val 1:");
+//         double r = sc.nextDouble();
+//         System.out.println("Enter val 2:");
+//         double c = sc.nextDouble();
+//         if (r>c){
+//             System.out.println("R is Greater"+r);
+//         }else{
+//             System.out.println("C is Greater"+c);
+//         }
+//     }
+// }
+
+// import java.util.Scanner;
+// public class new1 {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System.in);
+//         System.out.println("Enter val 1:");
+//         double r = sc.nextDouble();
+//         if (r%2==0){
+//             System.out.println("R is Even"+r);
+//         }else{
+//             System.out.println("C is Odd");
+//         }
+//     }
+// }
+
+
+// import java.util.Scanner;
+// public class new1 {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System.in);
+//         System.out.println("Enter val 1:");
+//         int a = sc.nextInt();
+//         System.out.println("Enter val 2:");
+//         int b = sc.nextInt();
+//         System.out.println("Enter val 3:");
+//         int c = sc.nextInt();
+//         int avg= (a+b+c)/3;
+//         System.out.println("Average"+avg);
+//     }
+// }
+
+import java.util.Scanner;
+public class new1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Enter val 1:");
+        int a = sc.nextInt();
+        System.out.println("Enter val 2:");
+        int b = sc.nextInt();
+        if (a>b){
+            int temp = a;
+            a = b;
+            b = temp;
+        }
+        System.out.println(b);
+    }
+}
