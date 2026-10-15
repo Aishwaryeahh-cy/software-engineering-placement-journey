@@ -1,6 +1,6 @@
 # Software Engineering Placement Journey 🚀
 
-A 3-month structured learning and practice journey focused on building strong foundations for entry-level software engineering and developer roles.
+A 6-month structured learning and practice journey focused on building strong foundations for entry-level software engineering and developer roles.
 
 This repository documents my progress through **Java, DSA, SQL, Computer Science fundamentals, AI-assisted development, problem solving, development tools, projects, and interview preparation.**
 
