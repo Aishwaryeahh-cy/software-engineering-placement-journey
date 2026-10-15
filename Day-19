@@ -1,0 +1,102 @@
+12
+1 2 3 4
+*
+**
+***(6 stars)
+1 2 3 4 5
+import java.util.Scanner;
+public class new1{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner (System.in);
+        int n =sc.nextInt();
+        for(int i=1; i<=n; i++){
+            for(int j=1; j<=i; j++){
+                System.out.print(j);
+        }
+        System.out.println();
+    }
+}
+}
+
+accumulator
+count++ adds value nd goes until condition is meet
+7
+1
+15
+displays last digit 4
+275
+yes bcoz wen we reverse the value or the content is same
+
+
+import java.util.Scanner;
+public class new1{
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Enter a non negative num:");
+    int n = sc.nextInt();
+    int sum=0;
+    while(n>0){
+        int d = n%10;
+        sum =sum +d;
+        n=n/10;
+    }
+    System.out.println(sum);
+}
+}
+i tried this simply
+import java.util.Scanner;
+public class new1{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a num:");
+        int n = sc.nextInt();
+        int rev=0;
+        while(n!=0){
+            int d = n%10;
+            rev=rev*10+d;
+            n=n/10;
+        }
+        System.out.println(rev);
+    }
+}
+i tried this simply
+import java.util.Scanner;
+public class new1{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a val:");
+        int n = sc.nextInt();
+        int original=n;
+        int rev=0;
+        while(n>0){
+            int d =n%10;
+            rev = rev*10+d;
+            n=n/10;
+        }
+        if (original==rev){
+            System.out.println("Palindrome:"+(rev));
+        }
+        else{
+            System.out.println("Not Palindrome");
+        }
+    }
+}
+couldnt solve java loops || nd also other hackerrank werw quite complex
+ bcoz ur teaching me in normal way nd giving other hackerrank
+im telling u to teach nd prepare me in hackerrank level or platform
+or method bcoz ill get used to it
+16
+40
+2/3
+3/4
+6/15
+6
+2
+25/10
+8/10
+16
+10
+32
+25
+11
+
