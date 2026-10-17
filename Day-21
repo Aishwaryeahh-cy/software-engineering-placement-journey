@@ -1,0 +1,49 @@
+import java.util.Scanner;
+public class new1{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Enter a number:");
+        int n =sc.nextInt();
+        if (n>0){
+            System.out.println("Positive");
+        }else if (n<0){
+            System.out.println("Negative");
+        }else if (n==0){
+            System.out.println("Zero");
+        }
+    }
+}
+
+import java.util.Scanner;
+public class new1{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Enter radius:");
+        int n =sc.nextInt();
+        if (n>0){
+            double rad= Math.PI*n*n;
+            System.out.println(rad);
+        }
+    }
+}
+
+
+import java.util.Scanner;
+public class new1{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Enter a value:");
+        int n =sc.nextInt();
+        int ori=n;
+        int rev =0;
+        while (n >0){
+            int d = n%10;
+            rev=rev*10+d;
+            n=n/10;
+        }if (ori==rev){
+            System.out.println("Palindrome");
+        }else{
+            System.out.println("Not Palindrome");
+        }
+    }
+}
