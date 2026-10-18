@@ -1,0 +1,72 @@
+import java.util.Scanner;
+public class new1{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int [] num = new int[5];
+        int sum=0;
+        System.out.println("Enter 5 values:");
+        for(int i =0; i<num.length; i++ ){
+            num[i]= sc.nextInt();
+        }
+        for(int i =0; i<num.length; i++ ){
+            sum=sum+num[i];
+        }
+
+        System.out.println(sum);
+    }
+}
+
+import java.util.Scanner;
+public class new1{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int [] num = new int[5];
+        System.out.println("Enter val 1:");
+        for(int i =0; i<num.length; i++ ){
+            num[i]= sc.nextInt();
+        }
+        int max =num[0];
+        for(int i =1; i<num.length; i++ ){
+            if (num[i]>max){
+                max=num[i];
+            }
+        }
+
+        System.out.println(max);
+    }
+}
+
+import java.util.Scanner;
+public class new1{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int [] num = new int[5];
+        System.out.println("Enter val 1:");
+        int sum=0;
+        for(int i =0; i<num.length; i++ ){
+            num[i]= sc.nextInt();
+        }
+        for(int i =1; i<num.length; i++ ){
+            sum=sum+num[i];
+            }
+        double average = (double)sum/num.length;
+        System.out.println(average);
+    }
+}
+
+import java.util.Scanner;
+public class new1{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int [] num = new int[5];
+        System.out.println("Enter 5 val:");
+        for(int i =0; i<num.length; i++){
+            num[i]=sc.nextInt();
+            if (num[i]%2==0){
+                System.out.println(num[i]);
+            }
+        }
+    }
+}
+
+
